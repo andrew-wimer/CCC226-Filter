@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77f5bf72-82b6-40ec-b960-b15ddb992bc5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1bvKD0LfLg034ZIfOLzEScXMmrM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReplState" timestamp="1589586904102">{:repl-history {:ide [], :local [{:command &quot;(removeWhen \&quot;Joe\&quot; \&quot;Bingo\&quot;)&quot;, :offset 26, :ns &quot;filter.core&quot;} {:command &quot;(removeWhen \&quot;Joe\&quot; \&quot;Bingo\&quot; \&quot;Ringo\&quot; \&quot;Dingo\&quot;)&quot;, :offset 42, :ns &quot;filter.core&quot;} {:command &quot;(recursiveRemove \&quot;Joe\&quot; \&quot;Joe\&quot; \&quot;Bingo\&quot; \&quot;Ringo\&quot; \&quot;Dingo\&quot;)&quot;, :offset 53, :ns &quot;filter.core&quot;} {:command &quot;(recursiveRemove \&quot;Joe\&quot; \&quot;Joe\&quot; \&quot;Bingo\&quot; \&quot;Joe\&quot; \&quot;Ringo\&quot; \&quot;Dingo\&quot;)&quot;, :offset 59, :ns &quot;filter.core&quot;} {:command &quot;(recursiveRemove2 \&quot;Joe\&quot; \&quot;Joe\&quot; \&quot;Bingo\&quot; \&quot;Joe\&quot; \&quot;Ringo\&quot; \&quot;Dingo\&quot;)&quot;, :offset 60, :ns &quot;filter.core&quot;} {:command &quot;(println totalList)&quot;, :offset 19, :ns &quot;filter.core&quot;} {:command &quot;(pop totalList)&quot;, :offset 15, :ns &quot;filter.core&quot;} {:command &quot;(nil? (pop totalList))&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(nil? (peek (pop totalList)))&quot;, :offset 29, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (identical? \&quot;Joe\&quot; (peek totalList)))\n(conj finalList (peek totalList)\n      ))&quot;, :offset 90, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (identical? \&quot;Joe\&quot; (peek totalList)))\n(conj finalList (peek totalList))\n(pop totalList)\n)&quot;, :offset 100, :ns &quot;filter.core&quot;} {:command &quot;(if ((identical? \&quot;Joe\&quot; (peek totalList))\n(conj finalList (peek totalList))\n(pop totalList)\n))&quot;, :offset 93, :ns &quot;filter.core&quot;} {:command &quot;(if (identical? \&quot;Joe\&quot; (peek totalList))\n(conj finalList (peek totalList))\n(pop totalList)\n)&quot;, :offset 91, :ns &quot;filter.core&quot;} {:command &quot;(if (identical? \&quot;Joe\&quot; (peek totalList))\n(conj finalList (peek totalList)))&quot;, :offset 74, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (identical? \&quot;Joe\&quot; (peek totalList)))\n(conj finalList (peek totalList)))&quot;, :offset 83, :ns &quot;filter.core&quot;} {:command &quot;(println finalList)&quot;, :offset 19, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; finalList)&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; '(finalList))&quot;, :offset 25, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; (finalList))&quot;, :offset 24, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; (\&quot;finalList\&quot;))&quot;, :offset 26, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; totalList)&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(conj \&quot;Joe\&quot; &amp; totalList)&quot;, :offset 24, :ns &quot;filter.core&quot;} {:command &quot;(conj totalList \&quot;Joe\&quot;)&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (identical? \&quot;Joe\&quot; (peek totalList)))\n(conj finalList (peek totalList))\n(println finalList))&quot;, :offset 103, :ns &quot;filter.core&quot;} {:command &quot;(conj finalList \&quot;Joe\&quot;)&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (= \&quot;Joe\&quot; (peek totalList)))\n(conj finalList (peek totalList))\n(println finalList))&quot;, :offset 94, :ns &quot;filter.core&quot;} {:command &quot;(if (false? (= \&quot;Boe\&quot; (peek totalList)))\n(conj finalList (peek totalList))\n(println finalList))&quot;, :offset 94, :ns &quot;filter.core&quot;} {:command &quot;(recursiveRemove3 \&quot;Joe\&quot; totalList)&quot;, :offset 34, :ns &quot;filter.core&quot;} {:command &quot;(nil? totalList)&quot;, :offset 16, :ns &quot;filter.core&quot;} {:command &quot;(gone \&quot;Joe\&quot; totalList)&quot;, :offset 22, :ns &quot;filter.core&quot;} {:command &quot;(passList \&quot;Joe\&quot;)&quot;, :offset 16, :ns &quot;filter.core&quot;} {:command &quot;(passList 1)&quot;, :offset 12, :ns &quot;filter.core&quot;} {:command &quot;(passlist 1)&quot;, :offset 12, :ns &quot;filter.core&quot;} {:command &quot;(passlist 1 2)&quot;, :offset 14, :ns &quot;filter.core&quot;} {:command &quot;(passlist '(1 2))&quot;, :offset 17, :ns &quot;filter.core&quot;} {:command &quot;(remove (= \&quot;Joe\&quot;) totalList)&quot;, :offset 28, :ns &quot;filter.core&quot;} {:command &quot;(nth totalList 5)&quot;, :offset 17, :ns &quot;filter.core&quot;} {:command &quot;(nth totalList 6)&quot;, :offset 17, :ns &quot;filter.core&quot;} {:command &quot;(remove \&quot;Joe\&quot; totalList)&quot;, :offset 24, :ns &quot;filter.core&quot;} {:command &quot;(distinct totalList)&quot;, :offset 20, :ns &quot;filter.core&quot;} {:command &quot;(lastIndexOf (\&quot;Joe\&quot;))&quot;, :offset 21, :ns &quot;filter.core&quot;} {:command &quot;(removeWhen \&quot;Joe\&quot; totalList)&quot;, :offset 28, :ns &quot;filter.core&quot;} {:command &quot;(removeWhen 2 totalList)&quot;, :offset 24, :ns &quot;filter.core&quot;} {:command &quot;(removeTarget \&quot;Joe\&quot; totalList)&quot;, :offset 30, :ns &quot;filter.core&quot;} {:command &quot;(findUnique \&quot;Joe\&quot; totalList)&quot;, :offset 28, :ns &quot;filter.core&quot;} {:command &quot;(findUnique \&quot;Doe\&quot; totalList)&quot;, :offset 28, :ns &quot;filter.core&quot;} {:command &quot;(notNil (\&quot;joe\&quot;))&quot;, :offset 16, :ns &quot;filter.core&quot;} {:command &quot;(notNil 1)&quot;, :offset 10, :ns &quot;filter.core&quot;} {:command &quot;(removeWhen \&quot;Doe\&quot; totalList)&quot;, :offset 28, :ns &quot;filter.core&quot;} {:command &quot;(findUnique2 \&quot;Doe\&quot; totalList)&quot;, :offset 29, :ns &quot;filter.core&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="filter" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77f5bf72-82b6-40ec-b960-b15ddb992bc5" name="Default Changelist" comment="" />
+      <created>1589507004201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589507004201</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1035" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589522659335">
+      <screen x="0" y="22" width="2560" height="1340" />
+    </state>
+    <state x="1035" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.2560.1340@0.22.2560.1340" timestamp="1589522659335" />
+    <state x="1289" y="654" key="com.intellij.ide.util.TipDialog" timestamp="1589507014354">
+      <screen x="0" y="22" width="2560" height="1340" />
+    </state>
+    <state x="1289" y="654" key="com.intellij.ide.util.TipDialog/0.22.2560.1340@0.22.2560.1340" timestamp="1589507014354" />
+  </component>
+</project>
